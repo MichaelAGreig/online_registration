@@ -15,7 +15,7 @@
         <h2>Signup for our newsletter</h2>
         <p>Get the latest news on how your code is doing right in your inbox</p>
       </div>
-      <form class="form container" action="" method="post" id="newsletter_form">
+      <form class="form container" method="post" id="newsletter_form">
         <section class="contact-information">
           <fieldset>
             <legend>Contact Information</legend>
@@ -29,7 +29,7 @@
               </div>
               <div class="contact-information-inputs">
                 <label for="phone">Phone Number</label>
-                <input type="phone" id="phone" name="user_phone" placeholder="Please include area code">
+                <input type="tel" id="phone" name="user_phone" placeholder="Please include area code">
               </div>
               <div class="contact-information-inputs">
                 <label for="street">Street Address</label>
@@ -72,7 +72,7 @@
               <label class="newsletter-input-section-headings">Newsletter format</label>
                 <div class="newsletter-inputs">
                 <input type="radio" id="html_format" value="user_newsletter_format_html"
-                 name="user_newsletter_format"><label for="format_html" class="choice-labels">HTML</label>
+                 name="user_newsletter_format"><label for="html_format" class="choice-labels">HTML</label>
                 </div>
                 <div class="newsletter-inputs">
                 <input type="radio" id="plain_text_format" value="user_newsletter_format_plain_text"
@@ -84,5 +84,8 @@
         </section>
         <button type="submit">Sign Up</button>
       </form>
+      <footer>
+        Copyright The Code Review
+      </footer>
     </body>
-    <footer>Copyright The Code Review</footer>
+  </html>
